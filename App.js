@@ -4,7 +4,7 @@ const app = express()
 require('dotenv').config();
 
 app.use(cors({
-  origin:'https://shopy-doby.vercel.app/',
+  origin:'https://shopy-doby.vercel.app',
   methods: ['GET', 'POST'],
   credentials: true,
 }
